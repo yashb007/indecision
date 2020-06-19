@@ -1,0 +1,33 @@
+
+.add-option-error{
+    color: #a5afd7;
+    font-style: italic;
+    padding : 0 1.6rem;
+    margin: 1.6rem 0 0 0 ;
+}
+
+.add-option{
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+}
+
+.add-option__input{
+        flex-grow: 1;
+        background:  #333745;
+        border: none;
+        margin: 0 0 1.2rem 0;
+        color :#a5afd7;
+        padding: 1.2rem;
+        border-bottom: 0.3rem solid darken( #333745,  10%);
+}
+
+
+@media(min-width: 45rem){
+.add-option{
+    flex-direction: row;
+}
+.add-option__input{
+    margin: 0 1.2rem 0 0;
+}
+}
